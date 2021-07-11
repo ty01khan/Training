@@ -1,5 +1,11 @@
-// Overriding: if subclass (child class) has the same method as declared in the parent class
-// Overloading: if a class has multiple methods having same name but different in parameters
+/**
+ * 
+ * @author Talha Yaseen
+ * 
+ * 
+ * Overridden: if subclass (child class) has the same method as declared in the parent class
+ * Overloading: if a class has multiple methods having same name but different in parameters
+ */
 
 // parent class
 public class Question1Overridden {
