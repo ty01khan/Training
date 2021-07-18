@@ -2,6 +2,11 @@
  * 
  * @author Talha Yaseen
  *
+ * we can inherit multiple Interfaces in a class
+ *
+ * all methods of a interface should have public keyword
+ * a class inherits interface, should have implementation of 
+ *   all the methods declare in interface
  */
 public class InterfaceTest implements Interface1, Interface2 {
 	public void printRollNo(int r) {
