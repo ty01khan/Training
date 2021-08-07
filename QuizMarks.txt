@@ -1,0 +1,9 @@
+Operating System (Linux) - 10/10
+Basic Control Statements - 9.5/14
+Basic OOPS - 15/17
+Array and Array Lists - 8/11
+Exception Handling - 14.17/15
+Java IO - Not Attempted
+Collections and Generics - 15/19
+JUnit Testing - 17/25
+JSON and XML - 24/33
