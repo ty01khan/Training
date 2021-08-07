@@ -1,0 +1,65 @@
+1. 	a.sayHello(); => A says hello
+	b.sayHello(); => B says hello
+	
+	a = b;
+	a.sayHello(); => B says hello
+	
+2.  a = b;  will compile
+	b = a;  will not compile because of Type mismatch, cannot convert from type A to type B
+	
+3. statement b = (B)a; will fail at runtime because of ClassCastException.
+
+4. statement b = new A(); is invalis because of type mismatch.
+
+5.  c1.printApples();  => c1 has 15 apples.
+	c2.printApples();  => c2 has 15 apples.
+	c1.printMangoes(); => c1 has 15 mangoes.
+	c2.printMangoes(); => c2 has 20 mangoes.
+	
+6. int findOccurences(int[] input, int n) {
+		int cnt = 0;
+		Arrays.sort(input);
+		
+		int find = input[n-1];
+		for(int i = 0; i < input.length; i++) {
+			if(input[i] == find) {
+				cnt++;
+			}
+			
+			if(input[i] > find)
+				break;
+		}
+		
+		return cnt;
+	}
+	
+7. An interface in java contains attributes and methods that a class implements.
+
+ A class in java implements the attributes and methods of an object.
+ 
+8. In a static context we cannot use this keyword. We are using this keyword in a static method of SomethingWrong class.
+
+9. When program throws exception at compile time then terminal shows java.lang.Exception, and when exception occur at runtime then terminal shows java.lang.RuntimeException.
+
+10. int fib(int n) {
+		if(n == 1 || n == 0)
+			return n;
+		
+		return fib(n-1) + fib(n-2);
+	}
+	
+11. super() constructor is undefines in Dog class.
+
+12. public X() method type should be set to void.
+
+13. null has 15 mangoes.
+	null has 5 mangoes.
+
+14. int factorial(int n){
+		if(n == 0)
+			return 1;
+		
+		return n * factorial(n-1);
+	}
+
+15. slipstream slip stream
