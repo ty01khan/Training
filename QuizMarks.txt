@@ -7,3 +7,4 @@ Java IO - Not Attempted
 Collections and Generics - 15/19
 JUnit Testing - 17/25
 JSON and XML - 24/33
+MySQL and Databases - 23.17/25
